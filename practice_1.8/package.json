@@ -1,0 +1,19 @@
+{
+  "name": "tss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "parcel ./src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "cropper": "^4.1.0",
+    "cropperjs": "^1.6.2"
+  }
+}

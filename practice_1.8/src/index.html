@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Cropper</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <label for="fileInput" class="custom-file-upload">
+      Загрузить
+    </label>
+    <input type="file" id="fileInput" style="display: none;">
+    <div class="image-container">
+      <img id="image">
+    </div>
+    <button id="cropButton">Обрезать</button>
+    <div class="cropped-container">
+      <img id="croppedImage" style="display: none;">
+    </div>
+    <button id="downloadButton" style="display: none;">Скачать обрезанное изображение</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
